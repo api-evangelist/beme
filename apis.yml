@@ -1,23 +1,73 @@
 aid: beme
 name: Beme
-description: Beme is a company surfaced as a portfolio company of lightspeed-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Beme Inc. (stylized "beme") was an American multimedia company founded in 2014 in New York City by
+  YouTube filmmaker Casey Neistat and engineer Matt Hackett. Its mobile app, released on iOS in July
+  2015 and on Android in May 2016, let users capture and instantly share unedited two-to-eight-second
+  videos without previewing or editing them, aiming at a more authentic alternative to curated social
+  video. Beme raised a seed round backed by Lightspeed Venture Partners and Vayner/RSE, and CNN
+  acquired the company in November 2016 in a deal reported at $25 million. The consumer app was shut
+  down on January 31, 2017, and on January 25, 2018 the founders departed and Beme was folded into CNN
+  Digital Studios. The company is defunct. Beme never published a public API, developer portal, or API
+  documentation; its only public technical artifact is an open-source Go testing utility. The beme.com
+  domain has since changed hands and now redirects to an unrelated company.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://github.com/beme.png
 url: https://raw.githubusercontent.com/api-evangelist/beme/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - lightspeed-venture-partners
+x-status: defunct
+x-defunct-date: '2018-01-25'
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: defunct-company-no-api-surface
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Video
+- Social Media
+- Mobile Applications
+- Media
+- Consumer
+- Defunct
+- Acquired
 apis: []
+common:
+- type: GitHubOrganization
+  name: Beme on GitHub
+  url: https://github.com/beme
+- type: SourceCode
+  name: beme/abide
+  url: https://github.com/beme/abide
+- type: Packages
+  name: Beme Packages
+  url: packages/beme-packages.yml
+- type: Lifecycle
+  name: Beme Lifecycle
+  url: lifecycle/beme-lifecycle.yml
+- type: LLMsTxt
+  name: Beme llms.txt
+  url: llms/beme-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1

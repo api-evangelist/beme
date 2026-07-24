@@ -1,0 +1,23 @@
+generated: '2026-07-20'
+method: searched
+source: https://github.com/beme
+notes: >-
+  Beme Inc. published exactly one public package: an open-source Go testing
+  utility. It is NOT an API client SDK — Beme never operated a public API — so
+  no `SDKs` pointer is emitted for it in apis.yml. Recorded here because it is
+  a genuine, verified, first-party published artifact.
+packages:
+  - language: go
+    registry: go-modules
+    name: github.com/beme/abide
+    url: https://pkg.go.dev/github.com/beme/abide
+    repository: https://github.com/beme/abide
+    install: go get github.com/beme/abide
+    description: A Go testing utility for HTTP response snapshots.
+    license: Apache-2.0
+    official: true
+    sdk: false
+    kind: testing-utility
+    status: unmaintained
+    last_pushed: '2021-03-22'
+    http_status: 200

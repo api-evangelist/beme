@@ -1,0 +1,33 @@
+# Beme
+
+> Beme Inc. (stylized "beme") was an American multimedia company founded in 2014 in New York City by
+> YouTube filmmaker Casey Neistat and engineer Matt Hackett. Its mobile app let users capture and
+> instantly share unedited 2-to-8-second videos without previewing them. CNN acquired Beme in
+> November 2016; the app was shut down on January 31, 2017 and the company was folded into CNN
+> Digital Studios on January 25, 2018. Beme is DEFUNCT and never published a public API.
+
+## Status
+
+- Company status: defunct (2014-2018)
+- Public API: none. Beme never operated a developer program, API documentation, or developer portal.
+- Domain: beme.com no longer belongs to Beme Inc.; it redirects to Hazel Health (https://www.hazel.co/),
+  an unrelated company. Do not treat content at beme.com as a Beme artifact.
+- Investors included Lightspeed Venture Partners and Vayner/RSE (seed, January 2015).
+
+## Source code
+
+- [github.com/beme](https://github.com/beme): the company's GitHub organization (New York City, created 2014-11-04).
+- [beme/abide](https://github.com/beme/abide): a Go testing utility for HTTP response snapshots,
+  Apache-2.0, published to the Go module proxy as `github.com/beme/abide`. Unmaintained since 2021.
+  This is a testing library, not a client SDK for any Beme API.
+
+## Repository artifacts
+
+- [apis.yml](https://raw.githubusercontent.com/api-evangelist/beme/refs/heads/main/apis.yml): the APIs.json profile.
+- [packages/beme-packages.yml](https://raw.githubusercontent.com/api-evangelist/beme/refs/heads/main/packages/beme-packages.yml): published first-party packages.
+- [lifecycle/beme-lifecycle.yml](https://raw.githubusercontent.com/api-evangelist/beme/refs/heads/main/lifecycle/beme-lifecycle.yml): company timeline and API-surface findings.
+
+## Reference
+
+- [Beme (company) - Wikipedia](https://en.wikipedia.org/wiki/Beme_(company))
+- [Beme | Lightspeed Venture Partners](https://lsvp.com/company/beme/)

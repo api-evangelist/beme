@@ -1,0 +1,56 @@
+generated: '2026-07-20'
+method: searched
+source: https://en.wikipedia.org/wiki/Beme_(company)
+company_status: defunct
+summary: >-
+  Beme Inc. operated from 2014 to 2018. It shipped a consumer mobile video app,
+  was acquired by CNN, and was folded into CNN Digital Studios. It never
+  published a public API, developer portal, or API documentation, so there is
+  no API versioning, deprecation, SLA, or status-page surface to capture.
+api_surface:
+  public_api: false
+  developer_portal: false
+  documentation: false
+  evidence:
+    - source: http://web.archive.org/cdx/search/cdx?url=developer.beme.com/*
+      result: no archived captures
+    - source: http://web.archive.org/cdx/search/cdx?url=api.beme.com/*
+      result: no archived captures
+    - source: http://web.archive.org/cdx/search/cdx?url=docs.beme.com/*
+      result: no archived captures
+    - source: http://web.archive.org/cdx/search/cdx?url=beme.com/developer*
+      result: no archived captures
+versioning: null
+deprecation: null
+sla: null
+status_page: null
+domain:
+  domain: beme.com
+  owned_by_beme: false
+  note: >-
+    beme.com no longer belongs to Beme Inc. It now 301-redirects to
+    https://www.hazel.co/ (Hazel Health, an unrelated K-12 telehealth company).
+    No /.well-known, TLS, or domain-security probe was run against beme.com
+    because the results would describe Hazel Health, not Beme.
+  probed: '2026-07-20'
+  http_status: 200
+  redirects_to: https://www.hazel.co/
+timeline:
+  - date: '2014'
+    event: Beme Inc. founded by Casey Neistat and Matt Hackett in New York City.
+  - date: '2014-11-04'
+    event: github.com/beme organization created.
+  - date: '2015-01-08'
+    event: Seed round, reported ~$2.62M, investors incl. Lightspeed Venture Partners and Vayner/RSE.
+  - date: '2015-07-17'
+    event: Beme iOS app released on the App Store.
+  - date: '2016-05-02'
+    event: Beme Android app released on Google Play.
+  - date: '2016-11-28'
+    event: CNN announces acquisition of Beme Inc., reported at ~$25M.
+  - date: '2017-01-31'
+    event: Beme consumer app shut down.
+  - date: '2018-01-25'
+    event: Neistat and Hackett depart; Beme folded into CNN Digital Studios.
+  - date: '2019-08'
+    event: Beme News YouTube channel ceases publishing.
