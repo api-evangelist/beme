@@ -46,6 +46,13 @@ tags:
 - Acquired
 apis: []
 common:
+- type: IssueTracker
+  url: https://github.com/beme/abide/issues
+- type: Releases
+  url: https://github.com/beme/abide/releases
+- type: License
+  name: Apache-2.0
+  url: https://github.com/beme/abide/blob/master/LICENSE
 - type: GitHubOrganization
   name: Beme on GitHub
   url: https://github.com/beme
