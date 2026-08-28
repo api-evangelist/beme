@@ -11,6 +11,18 @@ description: >-
   Digital Studios. The company is defunct. Beme never published a public API, developer portal, or API
   documentation; its only public technical artifact is an open-source Go testing utility. The beme.com
   domain has since changed hands and now redirects to an unrelated company.
+deliveryModel:
+  model: self-hosted
+  license: Apache-2.0
+  open_source: true
+  commercial: false
+  callable_host: false
+  label: Self-hosted open source · you run it yourself
+  confidence: high
+  source:
+  - license
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
