@@ -36,6 +36,9 @@ accessModel:
   method: derived
 image: https://github.com/beme.png
 url: https://raw.githubusercontent.com/api-evangelist/beme/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "Beme never published a public API, developer portal, or API documentation; its only public technical artifact is an open-source Go testing utility."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
