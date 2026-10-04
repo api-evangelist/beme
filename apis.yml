@@ -53,8 +53,8 @@ modified: '2026-07-20'
 tags:
 - Company
 - Video
-- Social-Media
-- Mobile Applications
+- Social Media
+- Mobile App
 - Media
 - Consumer
 - Defunct
@@ -68,6 +68,7 @@ tags_raw:
 - Consumer
 - Defunct
 - Acquired
+- Social-Media
 apis: []
 common:
 - type: IssueTracker
